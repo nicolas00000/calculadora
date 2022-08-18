@@ -35,6 +35,12 @@ section{
     li{
         height: 70px;
     }
+    .numeros{
+        height: calc(100% - 200px);
+    }
+    .resultado{
+        height:200px;
+    }
 }
 
 @media (min-width:551px) {
@@ -43,6 +49,12 @@ section{
     }
     li{
         height: 41px;
+    }
+    .numeros{
+        height: calc(100% - 100px);
+    }
+    .resultado{
+        height: 100px;
     }
 
 }
@@ -53,7 +65,6 @@ img{
 
 .resultado{
     background:gray;
-    height: 100px;
     font-size: 42px;
     overflow-x: scroll;
     font-weight: bold;
@@ -69,7 +80,6 @@ img{
 
 .numeros{
     background-color: #1f1f1f;
-    height: calc(100% - 100px);  
     list-style: none;
     display: flex;
     padding: 0 20px;

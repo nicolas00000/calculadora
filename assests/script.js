@@ -1,16 +1,25 @@
-const resultado = document.querySelector(".resultado")
- 
+const resultados = document.querySelector(".resultado")
+let travar = true
 function insert(numero){
-    resultado.innerHTML += numero
+    if(travar){
+        resultados.innerHTML = ""
+    }
+    resultados.innerHTML += numero
+    travar = false
 }
 
 function apagar(){
-    resultado.innerHTML = ""
+    resultados.innerHTML = "0"
+    travar = true
 }
 
 function back(){
-    const resultado = document.querySelector(".resultado").innerHTML
+    resultados.innerHTML = "00"
+    travar= true
+    const resultado = document.querySelector(".resultado").innerHTML    
     document.querySelector(".resultado").innerHTML = resultado.substring(0 , resultado.length - 1)
+    
+
 }
 
 function calcularResultado(){

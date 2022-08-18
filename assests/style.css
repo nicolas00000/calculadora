@@ -99,6 +99,7 @@ li{
     width: 23%;
     word-wrap:break-word;
     flex-wrap: wrap;
+    box-shadow: 1px 1px 1px 0px red;
     box-sizing: border-box;
     cursor: pointer;
     border-radius: 34px;
@@ -113,7 +114,7 @@ li{
 }
 
 .back{
-    background: #a35252
+    background: #ad4b4b
 }
 
 .back:hover{

@@ -72,11 +72,18 @@ img{
     align-items: center;
     justify-content: end;
     padding: 0 5px;
- }
+}
 
- .resultado::-webkit-scrollbar{
+.resultado::-webkit-scrollbar{
     display: none;
- }
+}
+
+li:hover{
+    background-color: #666666;
+}
+.operadores:hover{
+    background-color: #1f79b1;
+}
 
 .numeros{
     background-color: #1f1f1f;
@@ -103,4 +110,12 @@ li{
 
 .operadores{
     background-color:#1b6b9c;
+}
+
+.back{
+    background: #a35252
+}
+
+.back:hover{
+    background-color: #b94444;
 }

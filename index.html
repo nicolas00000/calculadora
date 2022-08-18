@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assests/style.css">
+    <title>Calculadora</title>
+</head>
+<body>
+    
+
+    <div class="box">
+        <div class="resultado">
+
+            
+        </div>
+
+        <ul class="numeros">
+            <li style="width: 46%;" onclick="apagar()">AC</li>
+            <li onclick="insert('/')"><img src="assests/img/divide.png" alt=""></li>
+            <li><img src="assests/img/porcentagem.png" alt=""></li>
+            
+            <li onclick="insert('7')">7</li>
+            <li onclick="insert('8')">8</li>
+            <li onclick="insert('9')">9</li>
+            <li class="operadores" onclick="insert('*')">X</li>
+
+            <li onclick="insert('4')">4</li>
+            <li onclick="insert('5')">5</li>
+            <li onclick="insert('6')">6</li>
+            <li class="operadores" onclick="insert('-')">-</li>
+
+            <li onclick="insert('1')">1</li>
+            <li onclick="insert('2')">2</li>
+            <li onclick="insert('3')">3</li>
+            <li class="operadores" onclick="insert('+')">+</li>
+           
+            <li onclick="insert('0')">0</li>
+            <li onclick="insert('.')">,</li>
+            <li style='background: #a35252;' onclick="back()">c</li>
+            <li class="operadores" onclick="calcularResultado()">=</li>
+        </ul>
+    </div>
+
+
+<footer>
+
+</footer>
+
+<script src="assests/script.js"></script>
+</body>
+</html>

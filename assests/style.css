@@ -31,12 +31,20 @@ section{
         height: 100vh;
         border:0px solid #1f1f1f;
     }
+
+    li{
+        height: 70px;
+    }
 }
 
 @media (min-width:560px) {
     .box{
         border-radius: 10px;
     }
+    li{
+        height: 41px;
+    }
+
 }
 
 img{
@@ -78,7 +86,6 @@ li{
     box-sizing: border-box;
     cursor: pointer;
     border-radius: 34px;
-    height: 41px;
     display: flex;
     align-items: center;
     justify-content: center;

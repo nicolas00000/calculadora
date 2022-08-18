@@ -37,7 +37,7 @@ section{
     }
 }
 
-@media (min-width:560px) {
+@media (min-width:551px) {
     .box{
         border-radius: 10px;
     }
@@ -50,7 +50,6 @@ section{
 img{
     height: 15px;
 }
-/* vermelho #a35252 */
 
 .resultado{
     background:gray;
